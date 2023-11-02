@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import testst from "./first-aid.jpg";
+
 
 function App() {
   return (
@@ -19,7 +19,6 @@ function App() {
           Learn React
         </a>
 
-        <img src={testst}/>
       </header>
     </div>
   );
