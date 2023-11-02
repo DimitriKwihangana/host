@@ -19,7 +19,7 @@ function App() {
           Learn React
         </a>
 
-        <img src={testst} alt="this the picture"/>
+        <img src={testst} alt="firstaid"/>
       </header>
     </div>
   );
