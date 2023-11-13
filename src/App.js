@@ -1,28 +1,23 @@
-import logo from './logo.svg';
+
 import './App.css';
-import testst from './first-aid.jpg'
+import { Routes, Route } from "react-router-dom";
+import App1 from './combo';
+import App2 from './two';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-
-        <img src={testst} alt="firstaid"/>
-      </header>
+      <div>
+        <Routes>
+          <Route path="/" element={<App1 />} />
+          <Route path="/two" element={<App2 />} />
+  
+        </Routes>
+      </div>
     </div>
   );
 }
 
 export default App;
+
+
